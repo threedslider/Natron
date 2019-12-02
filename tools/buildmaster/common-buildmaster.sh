@@ -20,12 +20,12 @@
 #THE FOLLOWING CAN BE MODIFIED TO CONFIGURE RELEASE BUILDS
 #----------------------------------------------------------
 NATRON_RELEASE_BRANCH=RB-2.3
-NATRON_GIT_TAG=tags/2.3.13
-IOPLUG_GIT_TAG=tags/Natron-2.3.13
-MISCPLUG_GIT_TAG=tags/Natron-2.3.13
-ARENAPLUG_GIT_TAG=tags/Natron-2.3.13
-GMICPLUG_GIT_TAG=tags/Natron-2.3.13
-CVPLUG_GIT_TAG=tags/Natron-2.3.13
+NATRON_GIT_TAG=tags/2.3.15
+IOPLUG_GIT_TAG=tags/Natron-2.3.15
+MISCPLUG_GIT_TAG=tags/Natron-2.3.15
+ARENAPLUG_GIT_TAG=tags/Natron-2.3.15
+GMICPLUG_GIT_TAG=tags/Natron-2.3.15
+CVPLUG_GIT_TAG=tags/Natron-2.3.15
 #----------------------------------------------------------
 
 # Name of the packages in the installer
@@ -39,7 +39,7 @@ CVPLUG_PKG=fr.inria.openfx.opencv
 CORELIBS_PKG=fr.inria.natron.libs
 OCIO_PKG=fr.inria.natron.color
 
-PACKAGES="$NATRON_PKG,$CORELIBS_PKG,$PROFILES_PKG,$IOPLUG_PKG,$MISCPLUG_PKG,$ARENAPLUG_PKG,$GMICPLUG_PKG" #,$CVPLUG_PKG
+PACKAGES="$NATRON_PKG,$CORELIBS_PKG,$IOPLUG_PKG,$MISCPLUG_PKG,$ARENAPLUG_PKG,$GMICPLUG_PKG" #,$CVPLUG_PKG ,$PROFILES_PKG
 
 # OCIO package version (linux/windows)
 # bump number when OpenColorIO-Configs changes
